@@ -1,0 +1,8 @@
+.table-bordered tbody td {
+    background-color: rgb(238, 234, 177);
+ }
+
+ .table-bordered thead td {
+    background-color: rgba(223, 175, 46, 0.705);
+    font-weight: 500;
+ }

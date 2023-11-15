@@ -1,0 +1,65 @@
+
+<div id ="fun">
+    <form >
+        <!-- <div id="notice_type"><b>
+            Select View :
+        </b>
+        <label ><input type="radio" name="submitedNotice" value="submitedNotice">Submitted Notice</label>
+        <label ><input type="radio" name="submitedNotice" value="submitedNotice">Drafted Notice</label>
+    </div> -->
+<!-- <app-notice-type></app-notice-type> -->
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td>Notice Type :</td>
+                <td><select style="width: 240px;">
+                    <option>All</option>
+                    <option>Regulatory</option>
+                    <option>Information seeking</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Jurisdistion</td>
+                <td>
+                    <input type="text">&nbsp;
+                    <img src="https://freesvg.org/storage/img/thumb/Anonymous-Magnifying-glass.png" width="22px" height="20px">&nbsp;
+                    <img src="https://www.shareicon.net/data/2015/08/12/84026_chart_512x512.png" width="20px" height="18px">&nbsp;
+                </td>
+                <td>Corporate Function :</td>
+                <td><select>
+                    <option >All</option>
+                    <option >HR</option>
+                    <option>Finanaces</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Status of Notice</td>
+                <td><select>
+                    <option >All</option>
+                    <option >Funnel</option>
+                    <option >Completed</option>
+                </select></td>
+                <td>Legal Entites Impated :</td>
+                <td><select>
+                    <option >All</option>
+                    <option >HR</option>
+                    <option >Finanace</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Date of Notice Issued :</td><td><input type="date" id="date" placeholder="DD-Mon-YYYY">&<input type="date" id="date" placeholder="DD-Mon-YYYY"></td>
+                <td>Mandatory Date of Response:</td><td><input type="date" id="date" placeholder="DD-Mon-YYYY">&<input type="date" id="date" placeholder="DD-Mon-YYYY"></td>
+
+            </tr>
+            <tr>
+                <td><input type="submit" id="sbtn" value="Apply">&nbsp;<input type="reset" id="sbtn" value="Clear Filter">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </form>
+</div>
+<p>Submitted Notice</p>
+<app-submitted-table></app-submitted-table>

@@ -1,0 +1,26 @@
+{
+  "posts": [
+    
+      {
+          "id":1,
+          "TitleOfNotice":"Credit",
+          "Jurisdiction" : "Oregen",
+          "CorporateFunction" :"Finance",
+          "Date" : "16-jun-2024",
+          "Status": "New",
+          "DraftedBy":"Arun"
+  
+      },
+      {
+        "id":2,
+        "TitleOfNotice":"Debit Card",
+        "Jurisdiction" : "Spain",
+        "CorporateFunction" :"Banking",
+        "Date" : "19-jun-2024",
+        "Status": "New",
+        "DraftedBy":"Diksha"
+
+    }
+  
+  ]
+}

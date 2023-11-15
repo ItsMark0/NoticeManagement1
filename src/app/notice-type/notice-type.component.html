@@ -1,0 +1,25 @@
+<!-- filter.component.html -->
+
+<div id="fun"> 
+    <b>
+      Select View :
+  </b>&nbsp;&nbsp;
+  <!-- <label ><input type="radio" name="submitedNotice" value="submitedNotice">Submitted Notice</label>
+  <label ><input type="radio" name="submitedNotice" value="submitedNotice">Drafted Notice</label> -->
+  <label> <input type="radio" name="noticeType" value="submitted" [(ngModel)]="selectedOption" (change)="onRadioChange('submitted')" >Submitted Notices</label>&nbsp;&nbsp;
+  <label>  <input type="radio" name="noticeType" value="drafted" [(ngModel)]="selectedOption" (change)="onRadioChange('drafted')"> Draft Notices</label>
+</div>
+
+
+  
+  <div *ngIf="selectedOption === 'submitted'">
+  
+    <app-filter></app-filter>
+    <!-- <h1>submited screen</h1> -->
+  </div>
+  
+  <div *ngIf="selectedOption === 'drafted'">
+
+    <app-drafted-notice ></app-drafted-notice>
+    <!-- <p>drafted page </p> -->
+  </div>
